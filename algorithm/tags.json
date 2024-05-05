@@ -1,0 +1,26 @@
+[
+		{
+				"neighbours": [1, null, null, null],
+				"gate": null
+		},
+		{
+				"neighbours": [2, null, 0, null],
+				"gate": null
+
+		},
+		{
+				"neighbours": [null, 3, 1, 4],
+				"gate": null
+
+		},
+		{
+				"neighbours": [null, null, null, 2],
+				"gate": "G1"
+
+		},
+		{
+				"neighbours": [null, 2, null, null],
+				"gate": "G2"
+
+		}
+]
