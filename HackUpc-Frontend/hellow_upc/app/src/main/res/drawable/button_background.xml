@@ -1,0 +1,38 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Estado presionado -->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#1565C0" /> <!-- Color de fondo más oscuro al presionar -->
+            <corners android:radius="8dp" />
+            <padding
+                android:left="8dp"
+                android:top="8dp"
+                android:right="8dp"
+                android:bottom="8dp" />
+            <stroke
+                android:width="2dp"
+                android:color="#0D47A1" /> <!-- Borde más grueso al presionar -->
+        </shape>
+    </item>
+
+    <!-- Estado por defecto -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#2196F3"
+                android:endColor="#1976D2"
+                android:angle="90" />
+            <corners android:radius="8dp" />
+            <padding
+                android:left="8dp"
+                android:top="8dp"
+                android:right="8dp"
+                android:bottom="8dp" />
+            <stroke
+                android:width="2dp"
+                android:color="#1565C0" /> <!-- Borde más claro -->
+        </shape>
+    </item>
+
+</selector>
